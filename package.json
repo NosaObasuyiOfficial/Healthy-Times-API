@@ -5,6 +5,7 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc -w",
+    "compile": "tsc",
     "dev": "cross-env NODE_ENV=development nodemon output/index.js",
     "prod": "cross-env NODE_ENV=production nodemon output/index.js"
   },
