@@ -68,7 +68,7 @@ const get_all_posts_with_search = (req, res) => __awaiter(void 0, void 0, void 0
                                 pageInfo: {
                                     currentPage: pageInt,
                                     perPage,
-                                    totalPosts: target_post
+                                    totalPosts: target_post.length
                                 }
                             });
                         }

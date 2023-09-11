@@ -67,7 +67,7 @@ export const get_all_posts_with_search = async(req:Request, res:Response) => {
                                     pageInfo: {
                                         currentPage: pageInt,
                                         perPage,
-                                        totalPosts: target_post
+                                        totalPosts: target_post.length
                                     }
                                 })
                         }else if(one_post.length < 1){
