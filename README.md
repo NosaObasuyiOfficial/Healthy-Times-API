@@ -2,9 +2,10 @@ This is a Blog API using Node.js + TypeScript, with a postgres Database.
 
 Blog Name - HealthyTimes
 
-User Login - localhost:PORT/user/signup
-User Verification - localhost:PORT/user/confirmation/:signup_token
-User Login - localhost:PORT/user/login
+To perform any operation, you  must first;
+1. User Signup - localhost:PORT/user/signup
+2. User Verification - localhost:PORT/user/confirmation/:signup_token
+3. User Login - localhost:PORT/user/login
 
 Users can be able to;
 1. Get all blog posts - localhost:PORT/post/all_posts
